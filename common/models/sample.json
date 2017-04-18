@@ -1,0 +1,23 @@
+{
+  "name": "Sample",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Hash": {
+      "type": "string",
+      "required": true,
+      "id": true
+    },
+    "SampleData": {
+      "type": "string",
+      "dataType": "MEDIUMTEXT"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

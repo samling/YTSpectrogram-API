@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://sboynton:password@localhost/ytspectrogram",
+    "database": "ytspectrogram",
+    "password": "password",
+    "name": "mysql",
+    "user": "sboynton",
+    "connector": "mysql"
+  }
+}
