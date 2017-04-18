@@ -8,6 +8,7 @@
   "properties": {
     "Id": {
       "type": "string",
+      "dataType": "VARCHAR",
       "required": true,
       "id": true
     },
